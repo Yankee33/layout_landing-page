@@ -12,9 +12,30 @@
   }
 
   &--phone {
+    position: relative;
     background-image: url(../items/Icon-Phone-call.png);
 
+    &:hover {
+      transform: scale(1.2);
+      filter: brightness(1.2);
+    }
 
+    .top-bar__phone-number {
+      display: none;
+      position: absolute;
+      right: 100%;
+      top: 50%;
+      transform: translateY(-50%);
+      padding: 5px 10px;
+      font-size: 12px;
+      font-weight: bold;
+      color: #fff;
+      white-space: nowrap;
+    }
+
+    &:hover .top-bar__phone-number {
+      display: block;
+    }
   }
 
   &--menu {
@@ -28,5 +49,3 @@
     background-image: url(../items/Icon-Close.png);
   }
 }
-
-
