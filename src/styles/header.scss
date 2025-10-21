@@ -1,23 +1,21 @@
-
 .header {
   background-image: url(../images/header-bg-mobile.png);
   background-size: cover;
   background-position: center;
 
-  &__content{
+  &__content {
     height: 100vh;
-
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
 
-  &_bottom{
-    padding-bottom:40px;
+  &_bottom {
+    padding-bottom: 40px;
   }
 
-  &__title{
+  &__title {
     margin-bottom: 88px;
     color: white;
     font-weight: 700;
@@ -27,9 +25,5 @@
     letter-spacing: -1.5px;
     text-align: center;
     vertical-align: middle;
-
-
   }
 }
-
-

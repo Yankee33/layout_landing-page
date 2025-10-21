@@ -1,4 +1,4 @@
-.icon{
+.icon {
   display: block;
   height: 24px;
   width: 24px;
@@ -6,26 +6,23 @@
 
   @include hover(transform, scale(1.2));
 
-
-  @include on-tablet{
+  @include on-tablet {
     height: 32px;
     width: 32px;
   }
 
-  &--phone{
+  &--phone {
     background-image: url(../items/Icon-Phone-call.png);
   }
 
-  &--menu{
+  &--menu {
     background-image: url(../items/Icon-Burger-menu.png);
-    &:hover{
+    &:hover {
       background-image: url(../items/menu-hover2.png);
     }
   }
 
-  &--close{
+  &--close {
     background-image: url(../items/Icon-Close.png);
   }
-
 }
-

@@ -1,18 +1,14 @@
-.main{
-  background-color: #1D1D1D;
+.main {
+  background-color: #1d1d1d;
 
-  &__content{
-  display: grid;
-  row-gap: 96px;
-  padding-block: 96px;
+  &__content {
+    display: grid;
+    row-gap: 96px;
+    padding-block: 96px;
 
-  @include on-tablet{
-    padding-block: 120px;
-    row-gap: 120px;
+    @include on-tablet {
+      padding-block: 120px;
+      row-gap: 120px;
+    }
   }
-  }
-
-
 }
-
-

@@ -1,25 +1,22 @@
-
-.logo{
+.logo {
   height: 38px;
   width: 130px;
 
   @include hover(transform, scale(1.2));
 }
 
-.top-bar{
-    padding-block: 24px;
-      display: flex;
-    justify-content: space-between;
-    align-items: center;
+.top-bar {
+  padding-block: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-  @include on-tablet{
+  @include on-tablet {
     padding-block: 36px;
   }
 
-    &__icons{
-  display: flex;
-  gap: 24px
+  &__icons {
+    display: flex;
+    gap: 24px;
+  }
 }
-}
-
-
