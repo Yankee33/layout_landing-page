@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com"
     crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-
+    <link rel="icon" href="./src/items/favicon.png">
     <script type="module" src="src/scripts/main.js"></script>
 
   </head>
@@ -201,11 +201,11 @@
             <form onsubmit="this.reset(); return false;">
               <div class="contacts__content">
                 <input class="contacts__input" type="text"
-                placeholder="Name">
+                placeholder="Name" required>
                 <input class="contacts__input" type="email"
-                placeholder="Email">
+                placeholder="Email" required>
                 <input class="contacts__input contacts__input--big" type="text"
-                placeholder="Message">
+                placeholder="Message" required>
                 <button class="button-contact button-contact--text">Send</button>
               </div>
             </form>

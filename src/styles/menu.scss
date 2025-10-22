@@ -13,6 +13,8 @@
   pointer-events: none;
   font-weight: 600;
   text-transform: uppercase;
+  overflow: hidden;
+   z-index: 1000;
 
   &__nav {
     margin-bottom: 40px;

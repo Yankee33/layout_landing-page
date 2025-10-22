@@ -19,6 +19,7 @@
   &--phone {
     position: relative;
     background-image: url(../items/Icon-Phone-call.png);
+      background-size: contain;
 
     &:hover {
       transform: scale(1.2);
@@ -52,6 +53,7 @@
 
   &--menu {
     background-image: url(../items/Icon-Burger-menu.png);
+      background-size: contain;
     &:hover {
       background-image: url(../items/menu-hover2.png);
     }
@@ -59,6 +61,7 @@
 
   &--close {
     background-image: url(../items/Icon-Close.png);
+      background-size: contain;
   }
 }
 
