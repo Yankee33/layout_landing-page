@@ -30,7 +30,7 @@
               alt="MyBike logo">
             </a>
             <div class="top-bar__icons">
-              <a href="#" class="icon icon--phone">
+              <a href="tel:+123455555555" class="icon icon--phone">
                 <span class="top-bar__phone-number">+1 234 555-55-55</span>
               </a>
               <a href="#menu" class="icon icon--menu"></a>
@@ -139,7 +139,7 @@
               <article class="detail">
                 <div class="detail__photos">
                   <a href="#" class="detail__link detail__link--wide">
-                    <img src="./src/images/1.png" alt="1"
+                    <img src="./src/images/1.jpeg" alt="1"
                     class="detail__photo">
                   </a>
                   <a href="#" class="detail__link detail__link--square">
@@ -198,31 +198,41 @@
             <h2 class="section-title">Contact us</h2>
           </div>
           <section class="contacts" id="contacts">
-            <div class="contacts__content">
-              <input class="contacts__input" type="text"
-              placeholder="Name">
-              <input class="contacts__input" type="email"
-              placeholder="Email">
-              <input class="contacts__input contacts__input--big" type="text"
-              placeholder="Message">
-              <button class="button-contact button-contact--text">Send</button>
-            </div>
+            <form onsubmit="this.reset(); return false;">
+              <div class="contacts__content">
+                <input class="contacts__input" type="text"
+                placeholder="Name">
+                <input class="contacts__input" type="email"
+                placeholder="Email">
+                <input class="contacts__input contacts__input--big" type="text"
+                placeholder="Message">
+                <button class="button-contact button-contact--text">Send</button>
+              </div>
+            </form>
+
 
             <div class="contacts__decrription">
               <p class="contact-info-light">
                 Phone
               </p>
-              <p class="contact-info-bold">+1 234 5555-55-55</p>
+              <p class="contact-info-bold">
+                <a href="tel:+123455555555">+1 234 5555-55-55</a>
+              </p>
               <p class="contact-info-light">
                 Email
               </p>
-              <p class="contact-info-bold"> hello@miami.com</p>
+              <p class="contact-info-bold">
+                <a href="mailto:hello@miami.com">hello@miami.com</a>
+              </p>
               <p class="contact-info-light">
                 Address
               </p>
-              <p class="contact-info-bold">400 first ave.<br>
-                suite 700<br>
-                Minneapolis, MN 55401
+              <p class="contact-info-bold">
+                <a href="https://www.google.com/maps?q=400+first+ave.+suite+700+Minneapolis,+MN+55401" target="_blank">
+                  400 first ave.<br>
+                  suite 700<br>
+                  Minneapolis, MN 55401
+                </a>
               </p>
             </div>
           </section>
