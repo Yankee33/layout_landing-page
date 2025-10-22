@@ -9,6 +9,10 @@ body {
   margin: 0;
 }
 
+.page:has(.menu:target) {
+  overflow: hidden; /* not to scroll the page */
+}
+
 .footer {
   width: 100%;
   height: 300px;
